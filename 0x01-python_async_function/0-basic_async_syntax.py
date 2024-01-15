@@ -3,7 +3,7 @@
 0. The basics of async
 """
 import random
-import time
+import asyncio
 
 
 async def wait_random(max_delay: int = 10) -> float:
@@ -12,5 +12,5 @@ async def wait_random(max_delay: int = 10) -> float:
     and eventually returns it
     """
     ran = random.random() * max_delay
-    time.sleep(ran)
+    await asyncio.sleep(ran)
     return ran
