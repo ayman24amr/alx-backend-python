@@ -2,8 +2,7 @@
 """
 to practice the methods
 """
-from utils import access_nested_map
+from utils import get_json
 
 
-print(access_nested_map({}, ("a",)))
-print(access_nested_map({"a": 1}, ("a", "b")))
+print(get_json("http://example.com"))
