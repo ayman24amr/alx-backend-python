@@ -67,7 +67,7 @@ class TestGithubOrgClient(unittest.TestCase):
 class TestIntegrationGithubOrgClient(unittest.TestCase):
     """
     a class to test GithubOrgClient
-    Integration test: fixtures 
+    Integration test: fixtures
     """
     @classmethod
     def setUpClass(cls):
